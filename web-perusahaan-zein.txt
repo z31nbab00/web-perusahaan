@@ -1,0 +1,4 @@
+Rencana Web Perusahaan Zein
+- Membuat logo perusahaan sendiri menggunakan canva dan menguploadnya ke github
+- Membuat akun media sosial seperti fb, instagram, twitter, dan lainnya.
+- 
