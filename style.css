@@ -1,0 +1,675 @@
+/* Header Promos */
+.header-promo{
+    background-color: #FFD8A9;
+    min-height: 45px;
+}
+
+.header-promo .promo-text{
+    color: #fff;
+    background-color: red;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.header-promo .promo-mahasiswa{
+    color: #000;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.header-promo .medsos-right{
+    text-align: right;
+    padding-top: 7px;
+    display: none;
+}
+
+.header-promo .click-medsos{
+    color: #E38B29;
+    text-decoration: none;
+}
+
+.header-promo .mrg-left{
+    margin-left: 10px;
+}
+
+
+
+/* Header Name */
+.header-name{
+    margin-top: 40px;
+    display: none;
+}
+
+.header-name .name-logo{
+    color: #F1A661;
+    font-family: Viga;
+    font-weight: bold;
+}
+
+.header-name .slogan{
+    color: grey;
+}
+
+.header-name .form-control{
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    height: 50px;
+}
+
+.header-name .btn-header-name{
+    background-color: #F1A661;
+    color: #fff;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    height: 50px;
+}
+
+.header-name form{
+    margin-top: 15px;
+}
+
+.header-name .btn-header-name:hover{
+    background-color: #E38B29;
+}
+
+
+
+
+
+/* Navbar */
+.bg-navbar{
+    background-color: #E38B29;
+    margin-top: 0;
+}
+
+.navbar .navbar-brand{
+    color: #fff;
+    font-family: Viga;
+    font-weight: bold;
+    font-size: 30px;
+    display: block;
+}
+
+.navbar form{
+    display: block !important;
+}
+
+.navbar .nav-link{
+    color: #fff !important;
+    font-family: Viga;
+}
+
+.navbar .btn-form-navbar{
+    color: #fff;
+    background-color: #F1A661;
+}
+
+.navbar .dropdown-item{
+    color: #000;
+    font-family: Viga;
+}
+
+.navbar .navbar-toggler{
+    border: 1px solid #E38B29;
+}
+
+
+
+
+/* Medsos */
+.medsos{
+    background-color: #FFD8A9;
+    min-height: 100px;
+    display: block;
+}
+
+.medsos .medsos-padd{
+    padding-top: 40px;
+}
+
+.medsos .click-medsos{
+    color: #E38B29;
+    text-decoration: none;
+}
+
+.medsos .mrg-left{
+    margin-left: 10px;
+}
+
+
+
+
+/* Slider */
+.slider .container{
+    padding-bottom: 30px;
+}
+
+.slider .col-lg-6{
+    background-color: #fff;
+    min-height: 200px;
+    margin-top: 350px;
+    border-top-right-radius: 100px;
+    border-right: 5px solid #E38B29;
+    padding: 30px;
+}
+
+.slider h2{
+    color: #E38B29;
+    font-family: Viga;
+}
+
+.slider .harga-coret{
+    color: grey;
+    font-style: italic;
+}
+
+.slider .harga-promo{
+    background-color: red;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.slider p{
+    color: grey;
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+
+
+
+
+/* Pelayanan */
+.pelayanan{
+    margin-top: 100px;
+}
+
+.pelayanan .garis{
+    border-top: 3px solid #E38B29;
+    width: 50px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.pelayanan h1{
+    color: #E38B29;
+    font-family: Viga;
+    text-align: center;
+}
+
+.pelayanan h1::after{
+    content: '';
+    display: block;
+    border-bottom: 3px solid #E38B29;
+    width: 50px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.pelayanan .mrg-top{
+    margin-top: 30px;
+}
+
+.pelayanan .lingkaran{
+    text-align: center;
+    border: 5px solid #E38B29;
+    width: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 50px;
+    color: #E38B29;
+    display: block;
+    transition: transform .2s;
+}
+
+.pelayanan .lingkaran:hover{
+    transform: scale(1.1);
+}
+
+.pelayanan h5{
+    font-family: Viga;
+    color: #E38B29;
+}
+
+
+
+
+/* Makanan Berat */
+.makanan-berat{
+    margin-top: 100px;
+}
+
+.makanan-berat .row{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.makanan-berat .garis{
+    border-top: 3px solid #E38B29;
+    width: 50px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.makanan-berat h1{
+    color: #E38B29;
+    font-family: Viga;
+    text-align: center;
+}
+
+.makanan-berat h1::after{
+    content: '';
+    display: block;
+    width: 50px;
+    border-bottom: 3px solid #E38B29;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.makanan-berat .card{
+    border: 0;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.8);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    transition: transform .2s;
+}
+
+.makanan-berat .card img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.makanan-berat .mrg-top{
+    margin-top: 0;
+}
+
+.makanan-berat .card-title{
+    color: #E38B29;
+    font-family: Viga;
+}
+
+.makanan-berat .card-subtitle{
+    color: grey;
+}
+
+.makanan-berat .btn-pesan{
+    margin-top: 20px;
+    color: #ffff;
+    background-color: #E38B29;
+}
+
+.makanan-berat .card-click{
+    text-decoration: none;
+}
+
+.makanan-berat .show-mobile{
+    display: block;
+}
+
+.makanan-berat .show-desktop{
+    display: none;
+}
+
+.makanan-ringan{
+    margin-top: 250px;
+}
+
+
+
+
+
+
+/* Prakata */
+.prakata{
+    margin-top: 200px;
+    min-height: 300px;
+    background-image: url(images/bg-restoran.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    border: 0;
+    border-top: 0;
+}
+
+.prakata .garis{
+    border-top: 3px solid #fff;
+    width: 50px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.prakata h1{
+    color: #fff;
+    font-family: Viga;
+    text-align: center;
+}
+
+.prakata h1::after{
+    content: '';
+    display: block;
+    border-bottom: 3px solid #fff;
+    width: 50px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.prakata p{
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+    margin-top: 30px;
+    font-family: Viga;
+}
+
+.prakata{
+    padding-bottom: 20px;
+}
+
+
+
+
+
+/* Footer */
+.footer{
+    background-color: #E38B29;
+    min-height: 300px;
+}
+
+.footer .garis{
+    border-top: 3px solid #fff;
+    width: 50px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.footer h1{
+    color: #fff;
+    text-align: center;
+    font-family: Viga;
+}
+
+.footer h1::after{
+    content: '';
+    display: block;
+    border-bottom: 3px solid #fff;
+    width: 50px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.footer .btn-feedback{
+    color: #fff;
+    background-color: #F1A661;
+}
+
+.footer h4{
+    color: #fff;
+    font-family: Viga;
+}
+
+.footer span{
+    color: #fff;
+}
+
+.footer ul{
+    color: #fff;
+}
+
+.footer li{
+    color: #fff;
+}
+
+.footer a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    color: grey;
+}
+
+.footer .row{
+    padding-bottom: 100px;
+}
+
+
+
+
+/* Footer 2 */
+.footer2{
+    background-color: #F1A661;
+    min-height: 50px;
+}
+
+.footer2 span{
+    color: #fff;
+    font-family: Viga;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+/* Prakata */
+.prakata .kotak-medsos{
+    background-color: #E38B29;
+    min-height: 50px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: none;
+}
+
+.prakata .col-lg-3:hover .kotak-medsos{
+    display: block;
+}
+
+.prakata .click-medsos{
+    padding-top: 5px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.prakata .kotak-nama{
+    background-color: #fff;
+    min-height: 50px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: 299px;
+    padding: 10px;
+    z-index: 1;
+    position: relative;
+    display: none;
+}
+
+.prakata .col-lg-3:hover .kotak-nama{
+    display: block;
+}
+
+.prakata .kotak-nama h5{
+    color: #E38B29;
+    font-family: Viga;
+}
+
+.prakata .kotak-nama h6{
+    color: grey;
+}
+
+
+
+
+
+
+
+
+
+
+/* Makanan Campur */
+.makanan-campur{
+    margin-top: 100px;
+}
+
+.makanan-campur .garis{
+    border-top: 3px solid #E38B29;
+    width: 50px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.makanan-campur h1{
+    color: #E38B29;
+    text-align: center;
+    font-family: Viga;
+}
+
+.makanan-campur h1::after{
+    content: '';
+    display: block;
+    border-bottom: 3px solid #E38B29;
+    width: 50px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.makanan-campur .container{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.makanan-campur .card{
+    border: 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.8);
+    transition: transform .2s;
+}
+
+.makanan-campur .card:hover{
+    transform: scale(1.1);
+}
+
+.makanan-campur .card img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.makanan-campur .card .card-title{
+    color: #E38B29;
+    font-family: Viga;
+}
+
+.makanan-campur .card .card-subtitle{
+    color: grey;
+}
+
+.makanan-campur .card-click{
+    text-decoration: none;
+}
+
+.makanan-campur .btn-pesan{
+    color: #ffff;
+    background-color: #E38B29;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+/* Pesan Makanan */
+.pesan-makanan{
+    margin-top: 100px;
+}
+
+.pesan-makanan .garis{
+    border-top: 3px solid #E38B29;
+    width: 50px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.pesan-makanan h1{
+    color: #E38B29;
+    font-family: Viga;
+    text-align: center;
+}
+
+.pesan-makanan h1::after{
+    content: '';
+    display: block;
+    border-bottom: 3px solid #E38B29;
+    width: 50px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.pesan-makanan .col-lg-4{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.pesan-makanan table td{
+    font-family: Viga;
+    color: #000;
+}
+
+.pesan-makanan .btn-checkout{
+    background-color: #E38B29;
+    color: #fff;
+}
+
+
+
+
+
+/* Desktop */
+@media (min-width: 992px) {
+    .navbar .navbar-brand{
+        display: none;
+    }
+
+    .navbar form{
+        display: none !important;
+    }
+
+    .header-promo .medsos-right{
+        display: block;
+    }
+
+    .header-name{
+        display: block;
+    }
+
+    .bg-navbar{
+        margin-top: 30px;
+    }
+
+    .header-promo .promo-mahasiswa{
+        font-size: 14px;
+    }
+
+    .medsos{
+        display: none;
+    }
+
+    .makanan-berat .card:hover{
+        transform: scale(1.1);
+    }
+
+    .makanan-berat .show-mobile{
+        display: none;
+    }
+
+    .makanan-berat .show-desktop{
+        display: block;
+    }
+}
